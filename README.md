@@ -1,5 +1,8 @@
 # PYTHON.STR
 Lista de Strings
+
+
+-
 '''Atividade 1'''
 
 entrada1 = input("Digite a primeira String: ")
