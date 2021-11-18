@@ -22,6 +22,7 @@ if(entrada1 == entrada2):
 else:
     print("As duas Strings não possuem o mesmo conteúdo.")
 '''Atividade 1'''
+---
 
 '''Atividade 2'''
 entrada = input("Digite seu nome: ")
@@ -49,6 +50,8 @@ for item in range(len(entrada)):
     saida += entrada[item]
     print(saida)
 '''Atividade 2'''
+------
+
 
 '''Atividade 3'''
 entrada = list(input("Digite seu nome: "))
@@ -57,6 +60,7 @@ for item in range(len(entrada),0,-1):
     print(entrada)
     entrada.pop()
 '''Atividade 3'''
+---
 
 '''Atividade 4'''
 meses = ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro']
@@ -69,6 +73,7 @@ ano = int(data[2])
 
 print(f'Você nasceu em {dia} de {meses[mes-1]} de {ano}')
 '''Atividade 4'''
+----
 
 '''Atividade 5'''
 entrada = input("Digite uma frase: ")
@@ -89,6 +94,8 @@ print(f"Existem {soma_vg} vogais.\n"
       f"{saida_u} letras 'u'.\n"
       f"{saida_spc} espaços. ")
 '''Atividade 5'''
+---
+
 
 '''Atividade 6'''
 entrada = input("Digite uma palavra: ")
@@ -99,6 +106,7 @@ for letra in entrada:
     else:
         print("Não é palindromo")
 '''Atividade 6'''
+---
 
 '''Atividade 7'''
 entrada = input("Digite seu cpf: ")
@@ -115,6 +123,7 @@ for sequenc in cpf_sb2.split('/'):
     else:
         print("CPF INVÁLIDO! ")
 '''Atividade 7'''
+----
 
 '''Atividade 8'''
 import random
@@ -145,6 +154,7 @@ while(cond == False):
     entrada = input('Digite uma letra: ')
     print(len(resp))
 '''Atividade 8'''
+----
 
 '''Atividade 9'''
 print("Valida e corrige número de telefone!")
